@@ -1,6 +1,59 @@
-h1 {
-  font-family: monospace;
+:root {
+  --branding-color: rgb(150, 61, 233);
+  --secondary-color: rgb(229, 213, 245);
+  --default-font-color: rgb(39, 6, 70);
+  --heading-font-family: Georgia, "Times New Roman", Times, serif;
+  --default-font: "Open Sans", "Helvetica Neue", sans-serif;
 }
-.fa-instagram-square {
-  font-size: 35px;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+}
+
+p {
+  font-family: var(--default-font);
+}
+
+.shero {
+  background: var(--secondary-color);
+  text-align: center;
+  color: var(--default-font-color);
+  padding: 160px 20px;
+}
+
+.shero h1 {
+  font-size: 96px;
+}
+
+.shero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.shero h2 {
+  font-family: var(--default-font);
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 2;
+  opacity: 0.7;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: rgb(219, 193, 243);
+  font-size: 20px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-branding:hover {
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  color: var(--branding-color);
 }
