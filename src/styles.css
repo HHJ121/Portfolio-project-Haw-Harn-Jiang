@@ -91,6 +91,10 @@ p {
   font-size: 27px;
 }
 
+.container {
+  padding: 50px;
+}
+
 .details {
   opacity: 0.7;
 }
