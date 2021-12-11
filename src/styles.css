@@ -53,6 +53,36 @@ p {
   opacity: 0.7;
 }
 
+.about-page {
+  padding: 160px 20px;
+}
+
+.about-page h1 {
+  font-size: 55px;
+  line-height: 80px;
+}
+
+.about-page h2 {
+  font-size: 20px;
+  font-family: var(--default-font);
+}
+
+.about-page p {
+  opacity: 0.7;
+}
+
+.self-image {
+  border-radius: 15px;
+  max-width: 450px;
+}
+
+.about-page-content {
+  margin: 30px;
+  background: var(--secondary-color);
+  padding: 80px;
+  border-radius: 5px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 5px;
@@ -126,5 +156,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-page {
+    text-align: center;
+    padding: 0;
   }
 }
