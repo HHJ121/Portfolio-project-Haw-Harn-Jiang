@@ -1,6 +1,7 @@
 :root {
   --branding-color: rgb(150, 61, 233);
   --secondary-color: rgb(229, 213, 245);
+  --content-color: rgb(247, 241, 253);
   --default-font-color: rgb(39, 6, 70);
   --heading-font-family: Georgia, "Times New Roman", Times, serif;
   --default-font: "Open Sans", "Helvetica Neue", sans-serif;
@@ -53,12 +54,16 @@ p {
   opacity: 0.7;
 }
 
+.wrapper {
+  background: var(--content-color);
+  padding: 45px;
+}
 .about-page {
-  padding: 160px 20px;
+  padding: 175px 20px;
 }
 
 .about-page h1 {
-  font-size: 55px;
+  font-size: 60px;
   line-height: 80px;
 }
 
@@ -73,14 +78,11 @@ p {
 
 .self-image {
   border-radius: 15px;
-  max-width: 450px;
+  max-width: 390px;
 }
 
 .about-page-content {
-  margin: 30px;
-  background: var(--secondary-color);
-  padding: 80px;
-  border-radius: 5px;
+  margin: 50px;
 }
 
 .btn-branding {
@@ -161,5 +163,13 @@ p {
   .about-page {
     text-align: center;
     padding: 0;
+  }
+
+  .about-page h1 {
+    font-size: 45px;
+  }
+
+  .about-page img {
+    max-width: 300px;
   }
 }
