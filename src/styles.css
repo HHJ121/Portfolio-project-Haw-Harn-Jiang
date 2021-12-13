@@ -90,8 +90,6 @@ p {
   max-width: 390px;
 }
 
-
-
 .btn-branding {
   background: var(--branding-color);
   border-radius: 5px;
@@ -153,6 +151,28 @@ p {
 .work-heading {
   padding: 70px;
   font-size: 60px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 29px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--default-font-color);
+  opacity: 0.8;
+  font-size: 21px;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-info a:hover {
+  color: rgb(130, 8, 245);
+  opacity: 1;
+  font-size: 25px;
 }
 
 @media (max-width: 900px) {
