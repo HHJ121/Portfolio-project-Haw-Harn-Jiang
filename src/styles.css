@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 45px;
 }
 
@@ -70,7 +70,7 @@ nav li.active a {
 .shero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .shero p {
@@ -88,8 +88,7 @@ nav li.active a {
 }
 
 .wrapper {
-  background: var(--content-color);
-  padding: 45px;
+  background: var(--secondary-color);
 }
 .page-content-container {
   padding: 175px 20px;
@@ -169,7 +168,7 @@ nav li.active a {
 }
 
 .container {
-  padding: 50px;
+  padding: 40px;
 }
 
 .nav-bar {
@@ -277,13 +276,13 @@ footer .social-links a:hover {
     font-size: 48px;
   }
 
-  h4 {
+  h3 {
     font-size: 27px;
     text-align: center;
   }
 
   .shero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   .project-description {
@@ -341,7 +340,6 @@ footer .social-links a:hover {
 
   footer .inquiry-box {
     padding: 25px;
-    
   }
 
   footer .inquiry-box p {
