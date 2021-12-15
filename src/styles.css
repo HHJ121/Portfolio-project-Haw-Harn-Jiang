@@ -122,11 +122,18 @@ nav li.active a {
   max-width: 390px;
 }
 
-.logo {
-  max-width: 110px;
-  max-height: 110px;
-  border-radius: 47%;
-  opacity: 0.8;
+.logo-header {
+  border: 3px solid var(--default-font-color);
+  background: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  animation: fa-spin 7s linear 0s infinite normal none;
+  border-radius: 20%;
+  padding: 12px 12px 0px 12px;
+}
+
+p.logo {
+  font-size: 25px;
+  font-weight: bold;
+  opacity: 0.5;
 }
 
 .btn-branding {
@@ -333,9 +340,11 @@ footer .social-links a:hover {
     margin: 1px;
   }
 
-  .logo {
-    max-width: 70px;
-    max-height: 70px;
+  p.logo {
+    padding: 1px 3px 0px 3px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.9;
   }
 
   footer .inquiry-box {
