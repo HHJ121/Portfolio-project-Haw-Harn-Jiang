@@ -120,6 +120,8 @@ nav li.active a {
 .self-image {
   border-radius: 15px;
   max-width: 390px;
+  border: 1px solid var(--default-font-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .logo-header {
@@ -198,9 +200,28 @@ p.logo {
   border-radius: 17px;
 }
 
+.project-link img {
+  border: 1px solid var(--default-font-color);
+  border-radius: 9px;
+}
+
 .work-heading {
   padding: 70px;
   font-size: 60px;
+}
+
+.painting-photo img {
+  max-width: 450px;
+}
+
+.dandelion-painting {
+  display: block;
+  margin: 75px auto;
+  padding: 10px;
+  border: 2px solid var(--default-font-color);
+  border-radius: 5px;
+  background: var(--content-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contact-info {
