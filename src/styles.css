@@ -207,8 +207,8 @@ p.logo {
 }
 
 .project-link img:hover {
-  opacity: 0.9;
-  border: 3px solid var(--default-font-color);
+  opacity: 0.7;
+  border: 4px solid var(--default-font-color);
 }
 
 .work-heading {
@@ -260,6 +260,27 @@ p.logo {
   color: var(--hover-color);
   opacity: 1;
   font-size: 23px;
+}
+
+.message-form {
+  border: 2px solid var(--default-font-color);
+  border-radius: 5px;
+  background: var(--content-color);
+  margin-top: 90px;
+  padding: 15px 0px 15px 0px;
+}
+
+.message-form {
+  max-width: 600px;
+  display: block;
+  margin: 50px auto;
+}
+
+.message-form label,
+.send-button {
+  display: block;
+  margin: 18px auto;
+  font-size: 22px;
 }
 
 .footer-section {
