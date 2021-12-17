@@ -90,6 +90,7 @@ nav li.active a {
 .wrapper {
   background: var(--secondary-color);
 }
+
 .page-content-container {
   padding: 175px 20px;
 }
@@ -205,6 +206,11 @@ p.logo {
   border-radius: 9px;
 }
 
+.project-link img:hover {
+  opacity: 0.9;
+  border: 3px solid var(--default-font-color);
+}
+
 .work-heading {
   padding: 70px;
   font-size: 60px;
@@ -214,9 +220,19 @@ p.logo {
   max-width: 450px;
 }
 
-.dandelion-painting {
+.style-painting-contact {
   display: block;
-  margin: 75px auto;
+  margin: 70px auto;
+  padding: 10px;
+  border: 2px solid var(--default-font-color);
+  border-radius: 5px;
+  background: var(--content-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.style-painting-about {
+  display: block;
+  margin: 15px auto;
   padding: 10px;
   border: 2px solid var(--default-font-color);
   border-radius: 5px;
@@ -336,13 +352,13 @@ footer .social-links a:hover {
   }
 
   .work-heading {
-    padding-bottom: 15px;
+    padding: 35px;
     font-size: 45px;
   }
 
   nav li {
     line-height: 50px;
-    margin-left: 14px;
+    margin-left: 8px;
   }
 
   nav a {
@@ -368,12 +384,11 @@ footer .social-links a:hover {
     opacity: 0.9;
   }
 
-  footer .inquiry-box {
-    padding: 25px;
+  .self-image {
+    margin-bottom: 20px;
   }
 
-  footer .inquiry-box p {
-    font-size: 17px;
-    text-align: center;
+  .painting-photo img {
+    max-width: 300px;
   }
 }
